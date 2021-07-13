@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<title>Katy Shaw Art</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+}
+</style>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/index.html" class="w3-bar-item w3-button">HOME</a>
+	<a href="/portfolio.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="/contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    
+    
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/index.html" class="w3-bar-item w3-button">HOME</a>
+	<a href="/portfolio.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+	<a href="/contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+   
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center">click an image to enlarge</p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+	 <div class="w3-col m3">
+      <img src="playa.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt='La Playa, 2020, 36", Commission'>
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="stoneylake.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Stoney Lake, 2020, 10x20, $250">
+    </div>
+	
+    <div class="w3-col m3">
+      <img src="zoey.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Zoey, 2019, 24x24">
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="plover.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Plover's Paradise, 2019, 16x20, $400">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center w3-section">
+	
+	<div class="w3-col m3">
+      <img src="canal.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Christmas Canal, 2019, 4x4">
+    </div>
+		
+	<div class="w3-col m3">
+      <img src="harbinger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Hopeful Harbinger, 2019, 16x20, $200">
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="buddingmaternal.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Budding Maternal, 2020, 16x20, $200">
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="galaxy.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Galaxy, 2018, 4x6">
+    </div>
+  </div>
+  <div class="w3-row-padding w3-center w3-section">
+  
+	<div class="w3-col m3">
+      <img src="wintersunrise.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Winter Sunrise, 2014, 16x20, $200">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="weekend.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Detail from 'Weekend', 2018, 10x20, SOLD">
+    </div>
+  
+    <div class="w3-col m3">
+      <img src="onthebreeze.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="On the Breeze, 2019, 16x20, $200">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="reflection.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Upon Reflection, 2020, 16x20, $200">
+    </div>
+  </div>
+    
+ 
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="rat.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Year of the Rat, 2008">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="ram.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Year of the Ram, 2015">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="monkey.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Year of the Monkey, 2016">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="rooster.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Year of the Rooster, 2017">
+    </div>
+    <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+  </div>
+    
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="showtime.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Showtime, 2002">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="untitled_resin1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Untitled, 2018, 8x8, 1 of 4">
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="untitled.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Detail from untitled work, 2019, 16x20">
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="motif.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Motif I, 2020, 16x20, $150">
+    </div>
+	</div>
+	
+	<div class="w3-row-padding w3-center">
+	 <div class="w3-col m3">
+      <img src="motif2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt='Motif II, 2020, 16x20, $150'>
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="doug.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Doug and the Slugs, 2020, 8x8, $100">
+    </div>
+	
+    <div class="w3-col m3">
+      <img src="pukka.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pukka Orchestra, 2020, 8x8, $100">
+    </div>
+	
+	<div class="w3-col m3">
+      <img src="vivaldi.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Vivaldi, 2020, 8x8, $100">
+    </div>
+  </div>
+	<div class="w3-row-padding w3-center w3-section">
+	
+    <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
+  </div>
+  
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+</body>
+</html>
